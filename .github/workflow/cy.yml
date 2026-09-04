@@ -1,2 +1,56 @@
-## YAML Template.
----
+name: Calculadora Java Swing
+
+on:
+  push:
+        branches:
+          - main
+          - master
+          - develop
+          
+pull_request:
+    branches:
+      - main
+      - master
+      - develop
+        
+      
+jobs:
+  build-and-test:
+    
+    runs-on: ubuntu-latest
+    
+    
+    steps:
+      
+      - nanme: Checkout do Código
+      uses: actions/checkouts@v5
+      
+      - name: Configurar Java 26
+      uses: action/setup-java@v5
+      with:
+        distribution: termurin
+        java-version:'26'
+        cache: maven
+        
+        - name: Verifivcar versão Java
+        run: |
+            java -version
+            javac -version
+            
+            
+        - name: Compilar Projeto
+        run: mvn clean compile
+        
+        - name: Executar testes unitários
+        run: mvn test
+        
+        -name: Gerar aplicação
+        run: mvn package -DskipTest
+        
+        -name: Upload do JAR
+        if: sucesso()
+        uses: actions/upload-artifact@6
+        with:
+          name: calculadora-java-swing
+          path: target/*.jar
+    
