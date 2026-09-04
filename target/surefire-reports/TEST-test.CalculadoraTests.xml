@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="test.CalculadoraTests" time="1.052" tests="22" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="test.CalculadoraTests" time="1.616" tests="22" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="26"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Applications/Apache NetBeans.app/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/macbook/Downloads/2 - Curso/analise de sistemas/CalculadoraCorrecao/target/surefire/surefirebooter-20260903214808738_3.jar /Users/macbook/Downloads/2 - Curso/analise de sistemas/CalculadoraCorrecao/target/surefire 2026-09-03T21-48-08_672-jvmRun1 surefire-20260903214808738_1tmp surefire_0-20260903214808738_2tmp"/>
+    <property name="sun.java.command" value="/Users/macbook/Downloads/2 - Curso/analise de sistemas/CalculadoraCorrecao/target/surefire/surefirebooter-20260904134759161_3.jar /Users/macbook/Downloads/2 - Curso/analise de sistemas/CalculadoraCorrecao/target/surefire 2026-09-04T13-47-59_109-jvmRun1 surefire-20260904134759161_1tmp surefire_0-20260904134759161_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="test.CalculadoraTests"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/macbook/Downloads/2 - Curso/analise de sistemas/CalculadoraCorrecao/target/surefire/surefirebooter-20260903214808738_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/macbook/Downloads/2 - Curso/analise de sistemas/CalculadoraCorrecao/target/surefire/surefirebooter-20260904134759161_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="26.0.1+8"/>
@@ -62,26 +62,26 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="testDigitoAposResultadoIniciaNovoCalculo" classname="test.CalculadoraTests" time="0.501"/>
-  <testcase name="testOperadorSomaGravaMais" classname="test.CalculadoraTests" time="0.028"/>
-  <testcase name="testIgualRepetidoNaoSoma" classname="test.CalculadoraTests" time="0.032"/>
-  <testcase name="testDividirDoisNumerosPositivos" classname="test.CalculadoraTests" time="0.0"/>
-  <testcase name="testLimparNoEstadoUm" classname="test.CalculadoraTests" time="0.026"/>
-  <testcase name="testLimparNoEstadoInicial" classname="test.CalculadoraTests" time="0.022"/>
-  <testcase name="testSomarDoisNumerosPositivos" classname="test.CalculadoraTests" time="0.001"/>
-  <testcase name="testTrocaDeOperadorMantemMais" classname="test.CalculadoraTests" time="0.026"/>
-  <testcase name="testSubstrairDoisNumerosPositivos" classname="test.CalculadoraTests" time="0.001"/>
-  <testcase name="testDivisaoPorZeroMostraErro" classname="test.CalculadoraTests" time="0.027"/>
-  <testcase name="testLimparNoEstadoDois" classname="test.CalculadoraTests" time="0.027"/>
-  <testcase name="testLimparNoEstadoTres" classname="test.CalculadoraTests" time="0.039"/>
-  <testcase name="testDigitoTresConcatenaUmaVez" classname="test.CalculadoraTests" time="0.027"/>
-  <testcase name="testResultadoSemMultiplicarPorDez" classname="test.CalculadoraTests" time="0.028"/>
+  <testcase name="testDigitoAposResultadoIniciaNovoCalculo" classname="test.CalculadoraTests" time="0.993"/>
+  <testcase name="testOperadorSomaGravaMais" classname="test.CalculadoraTests" time="0.03"/>
+  <testcase name="testIgualRepetidoNaoSoma" classname="test.CalculadoraTests" time="0.05"/>
+  <testcase name="testDividirDoisNumerosPositivos" classname="test.CalculadoraTests" time="0.001"/>
+  <testcase name="testLimparNoEstadoUm" classname="test.CalculadoraTests" time="0.032"/>
+  <testcase name="testLimparNoEstadoInicial" classname="test.CalculadoraTests" time="0.031"/>
+  <testcase name="testSomarDoisNumerosPositivos" classname="test.CalculadoraTests" time="0.0"/>
+  <testcase name="testTrocaDeOperadorMantemMais" classname="test.CalculadoraTests" time="0.032"/>
+  <testcase name="testSubstrairDoisNumerosPositivos" classname="test.CalculadoraTests" time="0.0"/>
+  <testcase name="testDivisaoPorZeroMostraErro" classname="test.CalculadoraTests" time="0.033"/>
+  <testcase name="testLimparNoEstadoDois" classname="test.CalculadoraTests" time="0.033"/>
+  <testcase name="testLimparNoEstadoTres" classname="test.CalculadoraTests" time="0.033"/>
+  <testcase name="testDigitoTresConcatenaUmaVez" classname="test.CalculadoraTests" time="0.034"/>
+  <testcase name="testResultadoSemMultiplicarPorDez" classname="test.CalculadoraTests" time="0.041"/>
   <testcase name="testMultiplicarDoisNumerosPositivos" classname="test.CalculadoraTests" time="0.001"/>
-  <testcase name="testTeclaLimparComL" classname="test.CalculadoraTests" time="0.04"/>
-  <testcase name="testTeclaSeteEnviaSete" classname="test.CalculadoraTests" time="0.027"/>
-  <testcase name="testDigitoCincoNoEstadoUm" classname="test.CalculadoraTests" time="0.029"/>
-  <testcase name="testDigitoNoveSegundoNumero" classname="test.CalculadoraTests" time="0.039"/>
-  <testcase name="testOperadorEncadeiaResultadoAnterior" classname="test.CalculadoraTests" time="0.03"/>
-  <testcase name="testLimparNoEstadoQuatro" classname="test.CalculadoraTests" time="0.041"/>
-  <testcase name="testDigitoZeroNoEstadoInicial" classname="test.CalculadoraTests" time="0.036"/>
+  <testcase name="testTeclaLimparComL" classname="test.CalculadoraTests" time="0.039"/>
+  <testcase name="testTeclaSeteEnviaSete" classname="test.CalculadoraTests" time="0.033"/>
+  <testcase name="testDigitoCincoNoEstadoUm" classname="test.CalculadoraTests" time="0.033"/>
+  <testcase name="testDigitoNoveSegundoNumero" classname="test.CalculadoraTests" time="0.053"/>
+  <testcase name="testOperadorEncadeiaResultadoAnterior" classname="test.CalculadoraTests" time="0.029"/>
+  <testcase name="testLimparNoEstadoQuatro" classname="test.CalculadoraTests" time="0.033"/>
+  <testcase name="testDigitoZeroNoEstadoInicial" classname="test.CalculadoraTests" time="0.032"/>
 </testsuite>

@@ -5,8 +5,14 @@ package model;
  */
 public class Calculadora {
 
+    /** 
+    Bug 1: Na soma o operador aritmético estava errado, deveria ser "+" e não "-"
+    Bug 2: Na subtração o operador aritmético estava errado, deveria ser "-" e não "+"
+    Bug 3: Na multiplicação o operador aritmético estava errado, deveria ser "*" e não "+"
+    Bug 4: Na divisão o operador aritmético estava errado, deveria ser "/" e não "*" 
+    */
     public double resultado;
-
+    
     public void somar(double a, double b) {
         this.resultado = a + b;
     }
